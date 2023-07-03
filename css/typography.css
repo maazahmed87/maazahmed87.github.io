@@ -1,0 +1,61 @@
+
+
+/* Path: css\typography.css */
+/* how to import font from '/assets/font*/
+
+@import url("/assets/font/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+
+
+body {
+  font-family: "Cambon Demi";
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image-caption {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.subheader-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.body-text {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.project-card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.project-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
