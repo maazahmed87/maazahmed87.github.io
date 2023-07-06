@@ -24,7 +24,11 @@
     <link rel="stylesheet" href="../../css/typography.css">
     <link rel="stylesheet" href="../../css/utilities.css">
 
-		<script defer src="../../js/script.js"></script>
+		  <script>
+      window.addEventListener('load', function () {
+        document.body.classList.add('loaded');
+      });
+    </script>
 	</head>
 	<body>
     <!-- NAVBAR -->
@@ -40,6 +44,10 @@
           <span class="button-text">Contact Me</span>
         </a>
       </a>
+    </div>
+
+    <div id="preloader">
+      <img src="../../assets/images/loader.gif" alt="Loading...">
     </div>
 
     <!-- MAIN PAGE CONTENT -->
@@ -67,7 +75,8 @@
           <div class="body-text">Artnbuff Shopping Mobile App was created to address the problem of making Indian art and craft easily accessible to Indian art lovers all over the world. Specifically, it tackles issues such as the restricted entry of Indian artists and artisans into global markets, the challenge for customers to find genuine products made in India and the necessity for a centralized platform that can endorse and provide assistance to Indian artists and crafters.</div>
         </div>
 
-        <div class="subheader-text">Features:</div>
+        <hr>
+        <div class="subheader-text">Features</div>
         <div class="project-details-content project-features">
           <div class="body-text"><span class="features-bold">1. Product Catalog:</span> Easily explore the entire range of available products with images and prices.</div>
           <div class="body-text"><span class="features-bold">2. Shopping Cart:</span> Conveniently manage your cart by adjusting quantities and removing items, with an option to confirm
@@ -89,9 +98,22 @@
           <div class="body-text"><span class="features-bold">13. Product Details Page:</span> Find comprehensive information such as price, description, reviews, and vendor details for each
           product.</div>
           <div class="body-text"><span class="features-bold">14. Filter:</span> Customize product display by filtering based on price, popularity, average rating, and latest arrivals.</div>
+        </div>
 
+        <hr>
+        <div class="subheader-text">Technologies Used</div>
+        <div class="project-technolgies">
+          <img src="../../assets/icons/react.svg" class="skill-icon" title="React Native" />
+          <img src="../../assets/icons/redux.svg" class="skill-icon" title="Redux" />
+          <img src="../../assets/icons/nodedotjs.svg" class="skill-icon" title="Node.js" />
+          <img src="../../assets/icons/express.svg" class="skill-icon" title="Express" />
+          <img src="../../assets/icons/expo.svg" class="skill-icon" title="Expo" />
+          <img src="../../assets/icons/jest.svg" class="skill-icon" title="Jest" />
+          <img src="../../assets/icons/cypress.svg" class="skill-icon" title="Cypress" />
+          
         </div>
       </div>
+      <hr>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
@@ -138,31 +160,28 @@
     </div>
 
     <!-- FOOTER -->
+    <!-- FOOTER -->
+    <div class="footer-text">Connect with me 😊</div>
     <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/elfilosof/">
+        <image src="../../assets/icons/instagram.svg" class="footer-icon" />
       </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+    
+      <a class="icon-link" target="_blank" href="https://github.com/elfilosof87">
+        <image src="../../assets/icons/github.svg" class="footer-icon" />
       </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+    
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/maazahmed87/">
+        <image src="../../assets/icons/linkedin.svg" class="footer-icon" />
       </a>
+    
+      <a class="icon-link" target="_blank" href="https://twitter.com/elfilosof87">
+        <image src="../../assets/icons/twitter.svg" class="footer-icon" />
+      </a>
+      <a class="icon-link" href="mailto:elfilosof@protonmail.com">
+        <image src="../../assets/icons/mail.svg" class="footer-icon" />
+      </a>
+    
     </div>
 
 	</body>

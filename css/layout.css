@@ -224,6 +224,13 @@ hr {
   padding: 0% 3%;
 }
 
+.project-technolgies{
+  display: flex;
+  flex-direction: row;
+  padding: 0% 3%;
+  gap: 1%
+}
+
     /* Project Gallery */
 
     #project-gallery {

@@ -24,3 +24,7 @@ window.addEventListener('load', function () {
   const preloader = document.getElementById('preloader');
   preloader.style.display = 'none';
 });
+
+window.addEventListener('load', function () {
+  document.body.classList.add('loaded');
+});
