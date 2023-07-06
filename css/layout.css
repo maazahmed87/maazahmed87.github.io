@@ -273,7 +273,7 @@ hr {
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   #main-content {
-    margin: 85px 20px;
+    margin: 125px 20px;
   }
 
   #portfolio-header {
@@ -288,7 +288,7 @@ hr {
 /* Small devices (portrait tablets and large phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   #main-content {
-    margin: 85px 20px;
+    margin: 125px 20px;
   }
 
   .project-card {
