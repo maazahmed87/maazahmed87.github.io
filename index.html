@@ -20,7 +20,7 @@
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
         <span class="nav-title">My Software Journey</span>
-        <a class="button" href="mailto:elfilosof@protonmail.com">
+        <a class="button" href="#footer">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
@@ -47,6 +47,7 @@
             </a>
         </div>
       </div>
+      <hr>
 
       <!-- ABOUT SECTION -->
       <div id="about-section">
@@ -59,6 +60,7 @@
           <div class="body-text">Continuously expanding my knowledge, I actively engage in online communities, contribute to open-source projects, and stay updated with the latest industry trends.</div>
         </div>
       </div>
+      <hr>
 
       <!-- SKILLS SECTION -->
 
@@ -80,7 +82,7 @@
             <img src="./assets/icons/nodedotjs.svg" class="skill-icon" title="Node.js" />
             <img src="./assets/icons/express.svg" class="skill-icon" title="Express" />
             <img src="./assets/icons/redux.svg" class="skill-icon" title="Redux" />
-            <img src="./assets/icons/react.svg" class="skill-icon" title="React" />
+            <img src="./assets/icons/react.svg" class="skill-icon" title="React Native" />
           </div>
           <div class="body-text">Databases: 
             <img src="./assets/icons/postgresql.svg" class="skill-icon" title="PostgreSQL" />
@@ -98,16 +100,64 @@
           </div>
         </div>
       </div>
+      <hr>
 
       <!-- EXPERIENCE SECTION -->
 
       <div id="my-experience-section">
         <span class="subheader-text">My Experience</span>
+        <div class="experience-row">
+          <img src="./assets/images/asu.png" class="experience-icon" />
+          <div class="experience-column">
+            <div class="experience-category">EDUCATION</div>
+            <div class="experience-title">Arizona State University</div>
+            <div class="experience-subtitle">Master's Degree in Software Engineering  |  Spring 2023</div>
+          </div>
+        </div>
+
+        <div class="experience-row">
+          <img src="./assets/images/evernote.png" class="experience-icon" />
+          <div class="experience-column">
+            <div class="experience-category">WORK EXPERIENCE</div>
+            <div class="experience-title">Software Engineering Intern - Evernote</div>
+            <div class="experience-subtitle">Jun 2022 — Aug 2022</div>
+            <div class="experience-description">
+              <p>• Developed & deployed a Log Recovery tool for logging Authentication and Authorization data of Evernote clients</p>
+              <p>• Simplified and automated the process of pulling logs by building a custom solution using TypeScript and NodeJS reducing the processing time by 60% </p>
+              <p>• Reconciled multiple sets of log entries to fill in the gaps during unexpected faults, ensuring data continuity</p>
+              <p>• Coded, deployed and handled 10% of production traffic when transitioning from Gluu to PingIdentity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-row">
+          <img src="./assets/images/nitte.png" class="experience-icon" />
+          <div class="experience-column">
+            <div class="experience-category">EDUCATION</div>
+            <div class="experience-title">NMAM Institute of Technology, India</div>
+            <div class="experience-subtitle">BA/BS in Computer and Information Science  |  Spring 2021</div>
+          </div>
+        </div>
+
+        <div class="experience-row">
+          <img src="./assets/icons/work.png" class="work-icon" />
+          <div class="experience-column">
+            <div class="experience-category">WORK EXPERIENCE</div>
+            <div class="experience-title">Web Development Intern - Appsys Web Solutions, Bangalore</div>
+            <div class="experience-subtitle">Jun 2019 — Jul 2019</div>
+            <div class="experience-description">
+              <p>• Collaborated in developing an eCommerce website by examining the needs and requirements of 3 clients</p>
+              <p>• Improved search time by engineering a search and sort features for an eCommerce website using PHP</p>
+              <p>• Boosted database performance by creating better database rules and properties using MySQL, resulting in a 50% reduction in query times</p>
+            </div>
+          </div>
+        </div>
       </div>
+      <hr>
 
       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
-        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+        
         <span class="subheader-text">My Work / My Projects</span>
 
         <div class="projects-container">
@@ -149,31 +199,28 @@
     </div>
 
     <!-- FOOTER -->
+    <div class="footer-text">Connect with me 😊</div>
     <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+      
+        <a class="icon-link" target="_blank" href="https://www.instagram.com/elfilosof/">
+          <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+        </a>
 
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+        <a class="icon-link" target="_blank" href="https://github.com/elfilosof87">
+          <image src="./assets/icons/github.svg" class="footer-icon"/>
+        </a>
+
+        <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/maazahmed87/">
+          <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
+        </a>
+
+        <a class="icon-link" target="_blank" href="https://twitter.com/elfilosof87">
+          <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+        </a>
+        <a class="icon-link" href="mailto:elfilosof@protonmail.com">
+          <image src="./assets/icons/mail.svg" class="footer-icon"/>
+        </a>
       
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
-        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
-        <image src="./assets/icons/mail.svg" class="footer-icon"/>
-      </a>
     </div>
 
 	</body>

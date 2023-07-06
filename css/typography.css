@@ -9,7 +9,7 @@
 
 
 body {
-  font-family: "Cambon Demi";
+  font-family: "Cambon";
 }
 
 .nav-title {
@@ -35,14 +35,42 @@ body {
 
 .subheader-text {
   font-size: 28px;
-  font-weight: 900;
-  font-family: 'Cambon Demi';
+  font-weight: 600;
+  font-family: 'Cambon';
 }
 
 .body-text {
   font-family: 'Inter';
   font-size: 16px;
   font-weight: 400;
+}
+
+.experience-category{
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.experience-title{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.experience-subtitle{
+  font-family: 'Inter';
+  font-weight: 400;
+  color:#666;
+  font-size: 0.85rem;
+}
+
+.experience-description{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 0.85rem;
+  width: 75%;
+  line-height: 1.45;
 }
 
 .project-card-text {
@@ -59,4 +87,10 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+}
+
+.footer-text {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 600;
 }

@@ -8,9 +8,10 @@
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
+
 
 a.icon-link {
   transition: transform 200ms ease-in-out;
@@ -77,6 +78,12 @@ a.button:hover {
 
 
 /* Footer Styling */
+.footer-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #footer {
   width: 100%;
@@ -89,7 +96,7 @@ a.button:hover {
 
 /* Link Styling */
 a.no-underline {
-  text-decoration: none;
+  text-decoration: none!important;
   color: black
 }
 
