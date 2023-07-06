@@ -89,6 +89,11 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.features-bold{
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
 .footer-text {
   font-family: 'Inter';
   font-size: 18px;

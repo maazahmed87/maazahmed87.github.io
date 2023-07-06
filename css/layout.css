@@ -218,6 +218,12 @@ hr {
   gap: 34px;
 }
 
+.project-features{
+  gap: 15px;
+  width: 93%;
+  padding: 0% 3%;
+}
+
     /* Project Gallery */
 
     #project-gallery {
