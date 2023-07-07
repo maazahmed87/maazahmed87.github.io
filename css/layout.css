@@ -79,7 +79,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 10px;
+  padding: 1% 1.5%;
   transition: box-shadow 0.3s ease;
 }
 .about-section-content:hover{
@@ -97,7 +97,7 @@ hr {
   flex-direction: column;
   gap: 15px;
   margin-top: 6px;
-  padding: 10px;
+  padding: 1% 1.5%;
   transition: box-shadow 0.3s ease;
 }
 
@@ -170,27 +170,31 @@ hr {
 
     /* Project Cards */
 
-    .project-card {
-      max-width: calc((100% - 32px) / 3);
-      display: flex;
-      flex-direction: column;
-      gap: 34px;
-    }
+.project-card {
+  max-width: calc((100% - 32px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  transition: box-shadow 0.3s ease;
+}
 
-    .project-card-text-container {
-      flex-direction: column;
-      display: flex;
-      gap: 16px
-    }
+.project-card:hover{
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
 
-    .project-image {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      object-position: center;
-    }
+.project-card-text-container {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+  padding: 0% 4%;
+}
 
-
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
 
 
 /* Project Pages */
@@ -204,6 +208,11 @@ hr {
 .project-header-image {
   width: 100%;
   height: auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-header-image:hover{
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 #project-details {
@@ -216,51 +225,67 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 34px;
+  padding: 1% 1.5%;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-details-content:hover{
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
 }
 
 .project-features{
   gap: 15px;
   width: 93%;
-  padding: 0% 3%;
+  padding: 1% 3%;
+  transition: box-shadow 0.3s ease;
 }
 
 .project-technolgies{
   display: flex;
   flex-direction: row;
-  padding: 0% 3%;
-  gap: 1%
+  padding: 1% 3%;
+  gap: 1%;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-technolgies:hover{
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
 }
 
     /* Project Gallery */
+#project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-    #project-gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+.project-gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px 16px;
+}
 
-    .project-gallery-content {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 34px 16px;
-    }
+.gallery-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
 
-    .gallery-image-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.gallery-image-container.half-width {
+  width: calc((100% - 16px) / 2);
+}
 
-    .gallery-image-container.half-width {
-      width: calc((100% - 16px) / 2);
-    }
+.gallery-image {
+  width: 100%;
+  height: auto;
+  transition: box-shadow 0.3s ease;
+}
 
-    .gallery-image {
-      width: 100%;
-      height: auto;
-    }
-
+.gallery-image:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+}
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {
