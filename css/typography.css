@@ -78,7 +78,7 @@ body {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 6;
-  height: calc(1.2rem * 6);
+  height: calc(1.21rem * 6);
   -webkit-box-orient: vertical;
 }
 
@@ -86,7 +86,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
